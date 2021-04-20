@@ -22,6 +22,14 @@
 
 	<script id="applicationScript" type="text/javascript" src="./mobile/scripts.js"></script>
 	<script id="applicationScript" type="text/javascript" src="custom.js"></script>
+
+	<script type="text/javascript">
+		(function($){
+			if ($.browser.desktop) {
+				window.location.href = `http://${window.location.host}/lp/qc-lp-test`
+			}
+		}(jQuery))
+	</script>
 </head>
 
 <body>
@@ -10132,10 +10140,6 @@
 	</div>
 	<script type="text/javascript">
 		(function ($) {
-			if ($.browser.desktop) {
-				window.location.href = `http://${window.location.host}/`
-			}
-
 			$("body")
 				.css("overflow-x", "hidden")
 				.css("width", $( document ).width());

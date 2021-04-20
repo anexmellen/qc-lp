@@ -18,6 +18,14 @@
 
 	<script id="applicationScript" type="text/javascript" src="scripts-xd.js"></script>
 	<script id="applicationScript" type="text/javascript" src="custom.js"></script>
+
+	<script type="text/javascript">
+		(function($){
+			if($.browser.mobile){
+				window.location.href = `http://${window.location.host}/lp/qc-lp-test/mobile`
+			}
+		})(jQuery)		
+	</script>
 </head>
 
 <body>
@@ -9062,13 +9070,7 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript">
-		(function($){
-			if($.browser.mobile){
-				window.location.href = `http://${window.location.host}/mobile`
-			}
-		})(jQuery)		
-	</script>
+	
 </body>
 
 </html>
