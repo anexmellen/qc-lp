@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-M-AlphaNum.eot');
+    src: url('RodinNTLGPro-M-AlphaNum.eot?#iefix') format('embedded-opentype'),
+        url('RodinNTLGPro-M-AlphaNum.woff2') format('woff2'),
+        url('RodinNTLGPro-M-AlphaNum.woff') format('woff'),
+        url('RodinNTLGPro-M-AlphaNum.ttf') format('truetype'),
+        url('RodinNTLGPro-M-AlphaNum.svg#RodinNTLGPro-M-AlphaNum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

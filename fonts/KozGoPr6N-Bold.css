@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'KozGoPr6N-Bold';
+    src: url('KozGoPr6N-Bold-AlphaNum.woff2') format('woff2'),
+        url('KozGoPr6N-Bold-AlphaNum.woff') format('woff'),
+        url('KozGoPr6N-Bold-AlphaNum.svg#KozGoPr6N-Bold-AlphaNum') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
